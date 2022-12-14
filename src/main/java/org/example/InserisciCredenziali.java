@@ -10,7 +10,7 @@ public class InserisciCredenziali extends CollezioneEmail {
     private String sesso;
     private int età;
 
-    //metodo utilizzato dall'utente per iscriversi a un estrazione di un premio in palio organizzato da un azienda
+    //metodo utilizzato dal personale per partecipare all'estrazione di persona piu' simpatica del team
     public int compilaICampi(String emailAddress,String nome,String cognome,String sesso,int età){
         this.cognome=cognome;
         this.emailAddress=emailAddress;
