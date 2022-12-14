@@ -13,6 +13,6 @@ public class Main {
         Ricciardo.compilaICampi("charlesLeclerc97@gmail.com","Daniel","Ricciardo","M",33);
         InserisciCredenziali Binotto= new InserisciCredenziali();
         Binotto.compilaICampi(null,"Mattia","Binotto","M",53);
-        Ricciardo.printLista();
+        Binotto.printLista();
     }
 }

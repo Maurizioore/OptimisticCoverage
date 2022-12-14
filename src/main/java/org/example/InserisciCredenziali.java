@@ -1,7 +1,4 @@
 package org.example;
-
-import java.util.HashSet;
-
 public class InserisciCredenziali extends CollezioneEmail {
     private int userId;
     private String emailAddress;
@@ -10,7 +7,7 @@ public class InserisciCredenziali extends CollezioneEmail {
     private String sesso;
     private int età;
 
-    //metodo utilizzato dal personale per partecipare all'estrazione di persona piu' simpatica del team
+    //metodo utilizzato dal personale per partecipare all'estrazione di persona piu' simpatica del tea
     public int compilaICampi(String emailAddress,String nome,String cognome,String sesso,int età){
         this.cognome=cognome;
         this.emailAddress=emailAddress;
